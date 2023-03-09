@@ -19,6 +19,7 @@ img{
 
 .col{flex-direction: column;}
 .flex{display: flex;}
+.JCCen{justify-content: center;}
 .JCSpB{justify-content: space-between;}
 .JCFlexEnd{justify-content: flex-end;}
 .alignFE{align-items: flex-end;}
@@ -76,9 +77,29 @@ img{
 }
 
 footer i {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 footer .col i {
     margin-bottom: 0.5em;
+}
+
+.fa-chevron-up{
+    font-size: 15px;
+}
+
+footer .end{
+    color: crimson;
+    width: 120px;
+    background-color: #414141;
+    height: 100%;
+    border: 1px solid black;
+}
+footer .end p{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.end:hover{
+    background-color: #5c5c5c;
 }
