@@ -11,10 +11,14 @@ body{
 }
 
 .B{background-color: black;}
+.G{background-color: grey;}
 
+.col{flex-direction: column;}
 .flex{display: flex;}
+.JCSpB{justify-content: space-between;}
 .JCFlexEnd{justify-content: flex-end;}
 .alignFE{align-items: flex-end;}
+.alignCen{align-items: center;}
 
 .marR{margin-right: 1em;}
 
@@ -24,7 +28,7 @@ body{
     height: 70px;
 }
 
-.headContainer{background-color: grey;
+.headContainer{
     padding: 0.5em;
     border-radius: 10px;
     margin-bottom: 0.5em;
@@ -34,3 +38,18 @@ body{
 
 
 /*************** FOOTER ***************/
+.bandF{height: 80px;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #222;
+    color: white;
+}
+
+footer i {
+    font-size: 25px;
+}
+
+footer .col i {
+    margin-bottom: 0.5em;
+}
