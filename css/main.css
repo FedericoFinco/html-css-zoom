@@ -19,8 +19,11 @@ body{
 .JCFlexEnd{justify-content: flex-end;}
 .alignFE{align-items: flex-end;}
 .alignCen{align-items: center;}
+.wrap{flex-wrap: wrap;}
 
 .marR{margin-right: 1em;}
+
+.pRel{position: relative;}
 
 /**************** HEADER **************/
 .bandH{
@@ -36,6 +39,21 @@ body{
 
 /**************** MAIN *************/
 
+.giga{
+    height:calc(100vh - 150px);
+}
+
+.mega{
+    height: 90.06%;
+    width: 90.08%;
+    margin: auto;
+}
+
+.card{
+    background-color: red;
+    width: calc(100%/7 - 5px);
+    height: calc(100%/5 - 10px);
+}
 
 /*************** FOOTER ***************/
 .bandF{height: 80px;
